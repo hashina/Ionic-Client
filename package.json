@@ -1,0 +1,23 @@
+{
+  "name": "mychat",
+  "version": "1.1.1",
+  "description": "myChat: An Ionic project",
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-whitelist",
+    "ionic-plugin-keyboard",
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-statusbar"
+  ],
+  "cordovaPlatforms": [],
+  "dependencies": {
+    "phoenix-js": "^1.0.3"
+  }
+}
